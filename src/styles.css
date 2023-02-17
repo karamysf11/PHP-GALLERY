@@ -1,0 +1,67 @@
+.plr{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#links > *{
+    margin-left: 15px;
+}
+
+.frm{
+    margin : 20px;
+    padding: 20px;
+    width: 380px;
+}
+
+.frm > *{
+    margin-top: 15px;
+    width:100%
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.search{
+    display: flex;
+    margin : 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.crd{
+    width: 18rem;
+    margin: 15px 15px;
+
+}
+
+
+.imsize{
+    height: 12rem;
+        transition: all .2s ease-in-out; 
+
+}
+
+.imsize:hover{
+    transform: scale(1.1); 
+
+}
+
+.desc{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.img{
+    width: 45rem;
+    margin: 20px 20px;
+}
